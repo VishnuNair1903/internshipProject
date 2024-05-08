@@ -1,0 +1,27 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0.5rem;
+  height: fit-content;
+  background-color: blue;
+}
+
+.app-container{
+  display: flex;
+  padding: 20px;
+  margin: 20px;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.scroll{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 30px;
+  flex-wrap: nowrap;
+ 
+}
